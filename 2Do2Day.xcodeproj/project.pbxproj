@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A137C9D82018265500D2DD3D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A137C9D72018265500D2DD3D /* AppDelegate.swift */; };
-		A137C9DA2018265500D2DD3D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A137C9D92018265500D2DD3D /* ViewController.swift */; };
+		A137C9DA2018265500D2DD3D /* TodoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A137C9D92018265500D2DD3D /* TodoListViewController.swift */; };
 		A137C9DD2018265500D2DD3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A137C9DB2018265500D2DD3D /* Main.storyboard */; };
 		A137C9DF2018265500D2DD3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A137C9DE2018265500D2DD3D /* Assets.xcassets */; };
 		A137C9E22018265500D2DD3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A137C9E02018265500D2DD3D /* LaunchScreen.storyboard */; };
@@ -17,7 +17,7 @@
 /* Begin PBXFileReference section */
 		A137C9D42018265500D2DD3D /* 2Do2Day.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 2Do2Day.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A137C9D72018265500D2DD3D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A137C9D92018265500D2DD3D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A137C9D92018265500D2DD3D /* TodoListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListViewController.swift; sourceTree = "<group>"; };
 		A137C9DC2018265500D2DD3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A137C9DE2018265500D2DD3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A137C9E12018265500D2DD3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -55,7 +55,7 @@
 			isa = PBXGroup;
 			children = (
 				A137C9D72018265500D2DD3D /* AppDelegate.swift */,
-				A137C9D92018265500D2DD3D /* ViewController.swift */,
+				A137C9D92018265500D2DD3D /* TodoListViewController.swift */,
 				A137C9DB2018265500D2DD3D /* Main.storyboard */,
 				A137C9DE2018265500D2DD3D /* Assets.xcassets */,
 				A137C9E02018265500D2DD3D /* LaunchScreen.storyboard */,
@@ -136,7 +136,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A137C9DA2018265500D2DD3D /* ViewController.swift in Sources */,
+				A137C9DA2018265500D2DD3D /* TodoListViewController.swift in Sources */,
 				A137C9D82018265500D2DD3D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -278,7 +278,7 @@
 				DEVELOPMENT_TEAM = K2L4T5WD2L;
 				INFOPLIST_FILE = 2Do2Day/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.emilyosowski.-Do2Day";
+				PRODUCT_BUNDLE_IDENTIFIER = com.emilyosowski.2Do2Day;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -293,7 +293,7 @@
 				DEVELOPMENT_TEAM = K2L4T5WD2L;
 				INFOPLIST_FILE = 2Do2Day/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.emilyosowski.-Do2Day";
+				PRODUCT_BUNDLE_IDENTIFIER = com.emilyosowski.2Do2Day;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
