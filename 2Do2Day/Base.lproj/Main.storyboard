@@ -32,7 +32,14 @@
                             <outlet property="delegate" destination="wnd-Ga-4xA" id="XPf-6I-2mN"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="2Do2Day" id="g7K-rG-Z9f"/>
+                    <navigationItem key="navigationItem" title="2Do2Day" id="g7K-rG-Z9f">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="Kur-np-5iv">
+                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <connections>
+                                <action selector="addButtonPressed:" destination="wnd-Ga-4xA" id="f2A-DN-MlA"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="w8s-I7-rl0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
