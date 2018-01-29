@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6D74DDCEE16A122899226016 /* Pods_2Do2Day.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F85CF2176019FC6762F1014 /* Pods_2Do2Day.framework */; };
 		A137C9D82018265500D2DD3D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A137C9D72018265500D2DD3D /* AppDelegate.swift */; };
 		A137C9DA2018265500D2DD3D /* TodoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A137C9D92018265500D2DD3D /* TodoListViewController.swift */; };
 		A137C9DD2018265500D2DD3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A137C9DB2018265500D2DD3D /* Main.storyboard */; };
@@ -17,6 +18,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1C72BD2A5F85C4421414E685 /* Pods-2Do2Day.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-2Do2Day.debug.xcconfig"; path = "Pods/Target Support Files/Pods-2Do2Day/Pods-2Do2Day.debug.xcconfig"; sourceTree = "<group>"; };
+		2F85CF2176019FC6762F1014 /* Pods_2Do2Day.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_2Do2Day.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B304CDDF3941A5542069EE5 /* Pods-2Do2Day.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-2Do2Day.release.xcconfig"; path = "Pods/Target Support Files/Pods-2Do2Day/Pods-2Do2Day.release.xcconfig"; sourceTree = "<group>"; };
 		A137C9D42018265500D2DD3D /* 2Do2Day.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 2Do2Day.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A137C9D72018265500D2DD3D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A137C9D92018265500D2DD3D /* TodoListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListViewController.swift; sourceTree = "<group>"; };
@@ -33,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D74DDCEE16A122899226016 /* Pods_2Do2Day.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +49,8 @@
 			children = (
 				A137C9D62018265500D2DD3D /* 2Do2Day */,
 				A137C9D52018265500D2DD3D /* Products */,
+				DC170A0ED5320094AAA60C2B /* Pods */,
+				AA89E11B878D2E1107424458 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,6 +109,23 @@
 			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		AA89E11B878D2E1107424458 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2F85CF2176019FC6762F1014 /* Pods_2Do2Day.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DC170A0ED5320094AAA60C2B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1C72BD2A5F85C4421414E685 /* Pods-2Do2Day.debug.xcconfig */,
+				7B304CDDF3941A5542069EE5 /* Pods-2Do2Day.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -109,9 +133,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A137C9E62018265500D2DD3D /* Build configuration list for PBXNativeTarget "2Do2Day" */;
 			buildPhases = (
+				E04F2AE4BB963AC5B38DD6F0 /* [CP] Check Pods Manifest.lock */,
 				A137C9D02018265500D2DD3D /* Sources */,
 				A137C9D12018265500D2DD3D /* Frameworks */,
 				A137C9D22018265500D2DD3D /* Resources */,
+				A559440451B3E58CFD8676D4 /* [CP] Embed Pods Frameworks */,
+				75A6A7964B0E6CA646F16147 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -168,6 +195,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		75A6A7964B0E6CA646F16147 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-2Do2Day/Pods-2Do2Day-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A559440451B3E58CFD8676D4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-2Do2Day/Pods-2Do2Day-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E04F2AE4BB963AC5B38DD6F0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A137C9D02018265500D2DD3D /* Sources */ = {
@@ -312,7 +387,9 @@
 		};
 		A137C9E72018265500D2DD3D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C72BD2A5F85C4421414E685 /* Pods-2Do2Day.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K2L4T5WD2L;
@@ -327,7 +404,9 @@
 		};
 		A137C9E82018265500D2DD3D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B304CDDF3941A5542069EE5 /* Pods-2Do2Day.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K2L4T5WD2L;
